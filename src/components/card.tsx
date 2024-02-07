@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ children, title }) => {
   return (
-    <div className="bg-cyan-800 h-[200px] justify-between items-center w-[25%] flex border-2 rounded-md border-white">
+    <div className="bg-cyan-800 h-[200px] justify-between items-center w-[25%] flex  border-white">
       <Scale size={100} />
       <div>
         <h1 className="text-white font-bold text-2xl">{title}</h1>
